@@ -37,12 +37,31 @@
 }
 
 body{
-    background-color: var(--color02);
-    min-width: 350px;
-    background-image: url('/image/galacticofoto.jpg');
     height: 100vh;
+    background-color: var(--color02);
+    background-image: url('/image/galacticofoto.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center bottom;
     background-attachment: fixed;
+}
+header{
+    background-image: linear-gradient(to top, var(--color00), var(--color03), var(--color05));
+    height: 180px;
+    background-attachment: fixed;
+    box-shadow: 4px 3px 10px 2px #0000008e;  
+}
+header h1{
+    padding-top: 40px;
+    text-align: center;
+}
+ul li > a{
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+nav ul>li{
+    display: inline;
+    
 }
