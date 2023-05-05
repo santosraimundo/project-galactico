@@ -1,5 +1,5 @@
 
-@charset 'UTF-8';
+@charset "UTF-8";
 
 
 @import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
@@ -35,6 +35,7 @@
     margin: 0px;
     padding: 0px;
 }
+
 body{
-    background-color: black;
+    background-image: url('/image/galacticofoto.jpg');
 }
