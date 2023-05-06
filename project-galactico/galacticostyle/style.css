@@ -44,6 +44,7 @@ body{
     background-size: cover;
     background-position: center bottom;
     background-attachment: fixed;
+    font-family: 'Courier New', Courier, monospace;
 }
 header{
     background-image: linear-gradient(to top, var(--color00), var(--color03), var(--color05));
@@ -54,14 +55,30 @@ header{
 header h1{
     padding-top: 40px;
     text-align: center;
+    font-family: var(--font-title01);
+    font-size: 2.5em;
+    color: var(--color00);
 }
+
 ul li > a{
     display: inline-block;
     list-style-type: none;
-    padding-left: 20px;
-    padding-top: 20px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+}
+ul li > a:hover{
+    background-color: var(--color02);
+    border-radius: 5px;
+    transition-duration: 0.5s;
+
+    
+    
 }
 nav ul>li{
     display: inline;
+    margin: 2px;
     
 }
