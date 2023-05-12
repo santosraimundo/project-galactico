@@ -22,6 +22,7 @@
     --font-title00: 'Keania One', cursive;
     --font-title01: 'Kumar One', cursive;
     --font-paraphy: 'Bebas Neue', cursive;
+    --font-body: Arial, Helvetica, sans-serif;
    
     /*The color for  my site*/
    
@@ -49,41 +50,44 @@ body{
     background-size: cover;
     background-position: center bottom;
     background-attachment: fixed;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: var(--font-body);
 }
+/*Set the header*/
 header{
     background-image: linear-gradient(to top, var(--color00), var(--color03), var(--color05));
     height: 180px;
     background-attachment: fixed;
     box-shadow: 4px 3px 10px 2px #0000008e;  
+   
 }
+/*Set the header h1*/
 header h1{
     padding-top: 40px;
     text-align: center;
-    font-family: var(--font-title01);
-    font-size: 2.5em;
-    color: var(--color00);
+    font-family: var(--font-title00);
+    font-size: 2.9em;
+    color: white;
+    font-weight: normal;
+    
+
+    
 }
 
 ul li > a{
     display: inline-block;
     list-style-type: none;
-    padding: 10px;
+    padding: 6px;
     text-decoration: none;
-    font-size: 1.5em;
-    font-weight: bold;
+    font-size: 1.3em;
     color: white;
+    font-family: var(--font-title01);
 }
 ul li > a:hover{
     background-color: var(--color02);
     border-radius: 5px;
     transition-duration: 0.5s;
-
-    
-    
-}
-nav ul>li{
+} 
+nav ul > li{
     display: inline;
     margin: 2px;
-    
 }
