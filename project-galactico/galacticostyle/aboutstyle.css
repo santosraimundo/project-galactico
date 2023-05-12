@@ -107,6 +107,7 @@ article{
     margin-right: 10px;
 
 }
+/*Onganize de image of back page*/
 #back{
     padding: 10px;
    
@@ -117,7 +118,8 @@ article{
     text-align: center;
 }
 
-ul li{
+li abbr{
     padding-top: 2px;
     text-align: none;
+    font-size: 1.2em;
 }
