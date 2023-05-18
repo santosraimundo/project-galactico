@@ -123,3 +123,19 @@ li abbr{
     text-align: none;
     font-size: 1.2em;
 }
+/*Set my footer*/
+footer{
+    text-align: center;
+    background-color: var(--color05);
+    padding: 10px;
+}
+footer p >a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+footer p > a:hover{
+    text-decoration: underline;
+    color: white;
+}

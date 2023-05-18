@@ -43,7 +43,8 @@
 body{
     background-image: linear-gradient(to top, var(--color06), var(--color05));
     background-attachment: fixed;
-    font-family: var(--font-body)
+    font-family: var(--font-body);
+  
 }
 /*Set the header*/
 header{
@@ -73,20 +74,21 @@ table{
     border-collapse: collapse;
     margin: auto;
     min-width: 80vh;
-
+    border: 5px solid black;
 }
 td{
     border: 2px solid black;
     padding: 3px;
 }
 th{
-    border: 2px solid black;
+    border: 5px solid black;
     font-size: 1.2em;
     padding: 8px;
     background-color: var(--color05);
     color: white;
     
 }
+/*Set hover to table row*/
 tr:hover{
     background-color: var(--color06);
 }
@@ -96,6 +98,7 @@ caption{
     background-color: var(--color05);
     color: white;
 }
+/* Set the column of name, position and number*/
 .position{
     text-align: center;
     font-size: 1.2em;
@@ -104,6 +107,14 @@ caption{
 .number{
     text-align: center;
     font-size: 1.2em;
+} 
+.name{
+    font-size: 1.2em;
+}
+/*Set the total*/
+#total{
+    text-align: center;
+    font-weight: bolder;
 }
 /*Onganize de image of back page*/
 #back{
@@ -114,4 +125,20 @@ caption{
 #back > a{
     display: block;
     text-align: center;
+}
+/*Set my footer*/
+footer{
+    text-align: center;
+    background-color: var(--color05);
+    padding: 10px;
+}
+footer p >a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+footer p > a:hover{
+    text-decoration: underline;
+    color: white;
 }
