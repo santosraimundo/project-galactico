@@ -90,7 +90,7 @@ th{
 }
 /*Set hover to table row*/
 tr:hover{
-    background-color: var(--color06);
+    background-color: var(--color00);
 }
 caption{
     padding: 20px;
