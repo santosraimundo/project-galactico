@@ -120,6 +120,8 @@ header h1{
 }
 #dropdown-content a:hover{
     background-color: white;
+    border-radius: 4px;
+    box-shadow: 1px 1px 0px 1px #000000a9;
     
 }
 #dropdown:hover #dropdown-btn{
