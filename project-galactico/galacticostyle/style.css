@@ -74,7 +74,7 @@ header h1{
 }
 
 /*Style my btn dropdown*/
-#dropdownbtn{
+#dropdown-btn{
     background-color: var(--color03);
     font-size: 1.3em;
     border: none;
@@ -122,10 +122,10 @@ header h1{
     background-color: white;
     
 }
-#dropdown:hover #dropdownbtn{
+#dropdown:hover #dropdown-btn{
     background-color: var(--color01);
 
 }
-#dropdownbtn {
+#dropdown-btn {
     
 }
