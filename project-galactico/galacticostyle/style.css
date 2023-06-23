@@ -83,7 +83,7 @@ header h1{
     color: white;
     font-family: var(--font-title01);
     margin-left: 10px;
-    margin-top: 30px;
+    margin-top: 32px;
     border-radius: 4px;
     transition: 0.4s;
 }
