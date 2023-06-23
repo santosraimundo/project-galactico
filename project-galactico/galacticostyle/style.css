@@ -82,6 +82,10 @@ header h1{
     cursor: pointer;
     color: white;
     font-family: var(--font-title01);
+    margin-left: 10px;
+    margin-top: 30px;
+    border-radius: 4px;
+    transition: 0.4s;
 }
 /*The Container section need position*/
 #dropdown{
@@ -99,6 +103,7 @@ header h1{
     z-index: 1;
     box-shadow: 2px 3px 2px 2px rgba(0, 0, 0, 0.61);
     font-family: var(--font-title01);
+    margin-left: 10px;
 }
 /* List and link inside of dropdown-content*/
 #dropdown-content a{
@@ -107,6 +112,7 @@ header h1{
     display: block;
     color: #000000;
     transition: 0.4s;
+    
 }
 /*Show dropdown menu on hover*/
 #dropdown:hover #dropdown-content{
@@ -121,5 +127,5 @@ header h1{
 
 }
 #dropdownbtn {
-    overflow: auto;
+    
 }
