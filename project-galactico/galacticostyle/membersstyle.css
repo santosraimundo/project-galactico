@@ -61,31 +61,44 @@ header h1{
     background-color: var(--color07);
     font-size: 2.5em;
     border-radius: 10px;
-    font-variant: small-caps;
+    
     
 }
 main{
     background-color: white;
-   
-    
 }
+
 /*Set my table*/
 table{
     border-collapse: collapse;
     margin: auto;
     min-width: 80vh;
-    border: 5px solid black;
+    border: 3px solid #000000;
+    cursor: pointer;
+    position: relative;
+    margin: auto;
+    min-width: 80vh;
+    border: 3px solid #000000;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0px -1px 14px 4px #0000006c;
+}
+thead > tr>th{
+    position: sticky;
+    top: -1px;
 }
 td{
-    border: 2px solid black;
+    border: 2px solid #000000;
     padding: 3px;
 }
 th{
-    border: 5px solid black;
+    border: 3px solid black;
     font-size: 1.2em;
-    padding: 8px;
+    padding: 10px;
     background-color: var(--color05);
-    color: white;
+    color: var(--color00);
+    font-family: var(--font-title00);
+    font-weight: normal;
     
 }
 /*Set hover to table row*/
@@ -96,7 +109,9 @@ caption{
     padding: 20px;
     font-size: 1.5em;
     background-color: var(--color05);
-    color: white;
+    color: var(--color00);
+    font-family: var(--font-title00);
+    font-weight: normal;
 }
 /* Set the column of name, position and number*/
 .position{
