@@ -55,14 +55,14 @@ body{
 /*Set the header*/
 header{
     background-image: linear-gradient(to top, var(--color00), var(--color03), var(--color05));
-    height: 180px;
+    height: 190px;
     background-attachment: fixed;
     box-shadow: 4px 3px 10px 2px #0000008e;  
    
 }
 /*Set the header h1*/
 header h1{
-    padding-top: 40px;
+    padding-top: 10px;
     text-align: center;
     font-family: var(--font-title00);
     font-size: 3em;
@@ -86,7 +86,7 @@ header h1:hover{
     color: white;
     font-family: var(--font-title01);
     margin-left: 10px;
-    margin-top: 32px;
+    margin-top: 0px;
     border-radius: 4px;
 }
 /*The Container section need position*/
@@ -134,5 +134,13 @@ header h1:hover{
 #dropdown-btn:hover{
     transform: translate(-0px, -5px);
     transition: 0.4s;
+}
+img{
+    width: 60px;
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+    
+    
 }
 
