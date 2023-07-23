@@ -5,8 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FC Galácticos</title>
-    <link rel="stylesheet" href="galacticostyle/style.css">
+    <link rel="stylesheet" href="menu/mobilefirst.css">
+    <link rel="stylesheet" href="menu/landcaspe.css" media="screen and (orientation:landscape)">
+    <link rel="stylesheet" href="menu/tablet.css" media=" only screen and (min-width:768px)">
+    <link rel="stylesheet" href="menu/desktop.css" media="only screen and (min-width:992px)">
+    <link rel="stylesheet" href="menu/tv.css" media="only screen and (min-width:1200px)">
     <link rel="shortcut icon" href="/icon/galactico.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -14,15 +19,18 @@
         <h1>Fc Galácticos</h1>
         
         <section id="dropdown">
-            <button id="dropdown-btn">Menu</button>
+           <!--<button id="dropdown-btn">Menu</button>--> 
+            <span id="mobile" class="material-icons" onclick="clickMenu()">menu</span>
             <nav id="dropdown-content">
-            
-                <ul>
-                    <li id="active"><a href="#" target="_self" rel="next">Home</a></li>
-                    <li><a href="galarry.html" target="_self" rel="next">Galarry</a></li>
-                    <li><a href="members.html" target="_self" rel="next">Members</a></li>
-                    <li><a href="about.html" target="_self" rel="next">About</a></li>
-                </ul>
+                <menu id="menumobile">
+                    <ul>
+                        <li><a href="homemenu.html" target="_self" rel="next">Home</a></li>
+                        <li><a href="galarry.html" target="_self" rel="next">Galarry</a></li>
+                        <li><a href="members.html" target="_self" rel="next">Members</a></li>
+                        <li><a href="about.html" target="_self" rel="next">About</a></li>
+                    </ul>
+                </menu>
+                
             </nav>
         </section>
     </header>
@@ -30,9 +38,15 @@
         <main>
             
         </main>
-        <footer>
-
-        </footer>
+        <script>
+            function clickMenu(){
+                if(menumobile.style.display == 'block'){
+                    menumobile.style.display = 'none';
+                }else{
+                    menumobile.style.display = 'block';
+                }
+            }
+        </script>
 </body>
 </html>
 

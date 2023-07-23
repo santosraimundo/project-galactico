@@ -1,6 +1,4 @@
-
 @charset "UTF-8";
-
 
 @import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
 
@@ -34,7 +32,6 @@
     --color05: #025E73;
     --color06: #1E92B4;
     --color07: #02E3BB;
-
 }
 
 *{
@@ -51,11 +48,12 @@ body{
     background-position: center bottom;
     background-attachment: fixed;
     font-family: var(--font-body);
+    display: flexbox;
 }
 /*Set the header*/
 header{
     background-image: linear-gradient(to top, var(--color00), var(--color03), var(--color05));
-    height: 190px;
+    height: 162px;
     background-attachment: fixed;
     box-shadow: 4px 3px 10px 2px #0000008e;  
    
@@ -68,15 +66,60 @@ header h1{
     font-size: 3em;
     color: white;
     font-weight: normal;
-    
-
-    
 }
 header h1:hover{
     color: var(--color00);
 }
+menu{
+    display: none;
+    
+}
+nav > menu > ul{
+    list-style-type: none;
+    
+}
+nav > menu > ul > li > a{
+    text-decoration: none;
+    color: white;
+    font-family: var(--font-title01);
+    background-color: #000000a9;
+    display: block;
+    text-align: center;
+    border: none solid var(--color00);
+    margin-top: 0px;
+}
+nav > menu > ul > li > a:hover{
+    background-color: #025E73;
+}
 
-/*Style my btn dropdown*/
+span#mobile{
+    display: block;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    
+    
+    
+    
+}
+span#mobile:hover{
+    background-color: #000000a9;
+}
+img{
+    width: 60px;
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+    
+    
+}
+
+
+
+
+
+
+/*Style my btn dropdown
 #dropdown-btn{
     background-color: var(--color03);
     font-size: 1.3em;
@@ -89,14 +132,16 @@ header h1:hover{
     margin-top: 0px;
     border-radius: 4px;
 }
-/*The Container section need position*/
+*/
+/*The Container section need position
 #dropdown{
     display: inline-block;
     position: relative;
     
 
 }
-/*Dropdown Content hide*/
+*/
+/*Dropdown Content hide
 #dropdown-content {
     display: none;
     position: absolute;
@@ -108,7 +153,8 @@ header h1:hover{
     margin-left: 10px;
     border-radius: 5px;
 }
-/* List and link inside of dropdown-content*/
+*/
+/* List and link inside of dropdown-content
 #dropdown-content a{
     padding: 8px 16px;
     text-decoration: none;
@@ -117,10 +163,12 @@ header h1:hover{
     transition: 0.4s;
     
 }
-/*Show dropdown menu on hover*/
+*/
+/*Show dropdown menu on hover
 #dropdown:hover #dropdown-content{
     display: block;
 }
+
 #dropdown-content a:hover{
     background-color: white;
     border-radius: 4px;
@@ -135,12 +183,4 @@ header h1:hover{
     transform: translate(-0px, -5px);
     transition: 0.4s;
 }
-img{
-    width: 60px;
-    display: block;
-    margin: auto;
-    padding-top: 10px;
-    
-    
-}
-
+*/

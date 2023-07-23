@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body{
+    background-image: url(/image/landscape-fc.jpg);
+    background-position: center center;
+}
+nav > menu{
+    display:block;
+   
+    
+}
+nav > menu > ul> li{
+    display: inline-block;
+   
+    
+}
+nav > menu >a{
+    padding: 10px;
+    margin: 10px;
+    
+    
+}
+span#mobile{
+    display: none;
+}
