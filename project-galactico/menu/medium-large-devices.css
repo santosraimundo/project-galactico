@@ -26,10 +26,26 @@ nav > menu{
 }
 nav > menu > ul> li{
     display: inline-block;
-    margin: 10px;
-    border: 2px solid black;
+    margin: 0px;
+}
+nav > menu>ul>li> a{
+    padding: 3px;
     border-radius: 5px;
-    background-color: var(--color05);
+    box-shadow: 0px 0px 4px 1px #0000005d;
+    margin: 4px;
+
+}
+header {
+    height: 110px;
+}
+header{
+    position: relative;
+}
+img{
+    float: right;
+    position: absolute;
+    right: 25%;
+    
 }
 
 span#mobile{
