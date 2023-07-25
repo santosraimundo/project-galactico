@@ -11,7 +11,7 @@
     font-family: 'Bebas Neue';
     src: url('/fonts/BebasNeue-Regular.ttf') format('truetype');
 }
-
+/*Screen for Mobile First*/
 :root{
     /*The fonts for my site*/
     
@@ -113,74 +113,3 @@ img{
     
     
 }
-
-
-
-
-
-
-/*Style my btn dropdown
-#dropdown-btn{
-    background-color: var(--color03);
-    font-size: 1.3em;
-    border: none;
-    padding: 6px;
-    cursor: pointer;
-    color: white;
-    font-family: var(--font-title01);
-    margin-left: 10px;
-    margin-top: 0px;
-    border-radius: 4px;
-}
-*/
-/*The Container section need position
-#dropdown{
-    display: inline-block;
-    position: relative;
-    
-
-}
-*/
-/*Dropdown Content hide
-#dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: var(--color05);
-    min-width: 100px;
-    z-index: 1;
-    box-shadow: 2px 3px 2px 2px #0000009c;
-    font-family: var(--font-title01);
-    margin-left: 10px;
-    border-radius: 5px;
-}
-*/
-/* List and link inside of dropdown-content
-#dropdown-content a{
-    padding: 8px 16px;
-    text-decoration: none;
-    display: block;
-    color: #000000;
-    transition: 0.4s;
-    
-}
-*/
-/*Show dropdown menu on hover
-#dropdown:hover #dropdown-content{
-    display: block;
-}
-
-#dropdown-content a:hover{
-    background-color: white;
-    border-radius: 4px;
-    box-shadow: 1px 1px 0px 1px #000000a9;
-    
-}
-#dropdown:hover #dropdown-btn{
-    background-color: var(--color01);
-
-}
-#dropdown-btn:hover{
-    transform: translate(-0px, -5px);
-    transition: 0.4s;
-}
-*/

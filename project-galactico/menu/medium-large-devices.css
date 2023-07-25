@@ -1,0 +1,37 @@
+@charset "UTF-8";
+ /*The color for  my site*/
+ :root{
+    /*The color for  my site*/
+    --color00: #FFC400;
+    --color01: #038c17;
+    --color02: #15118C;
+    --color03: #025918;
+    --color04: #0039FF;
+    --color05: #025E73;
+    --color06: #1E92B4;
+    --color07: #02E3BB;
+}
+
+/*Screen for medium and large devices*/
+body{
+    background-image: url(/image/landscape-fc.jpg);
+    background-position: center center;
+}
+nav > menu{
+    display:block;
+    margin-left: 20px;
+    
+   
+    
+}
+nav > menu > ul> li{
+    display: inline-block;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: var(--color05);
+}
+
+span#mobile{
+    display: none;
+}
