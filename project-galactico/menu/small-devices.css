@@ -42,7 +42,7 @@
 body{
     min-height: 100vh;
     background-color: var(--color02);
-    background-image: url(/image/galacticofoto.jpg);
+    background-image: url('/image/galacticofoto.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
