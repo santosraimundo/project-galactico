@@ -44,7 +44,7 @@ body{
     background: var(--color02) url(/image/galactico-foto.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:center;
+    background-position: left  bottom;
     background-attachment: fixed;
     font-family: var(--font-body);
 }
