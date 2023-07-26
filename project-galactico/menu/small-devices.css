@@ -19,7 +19,7 @@
     --font-title: 'Faster One', cursive;
     --font-title00: 'Keania One', cursive;
     --font-title01: 'Kumar One', cursive;
-    --font-paraphy: 'Bebas Neue', cursive;
+    --font-paragraphy: 'Bebas Neue', cursive;
     --font-body: Arial, Helvetica, sans-serif;
    
     /*The color for  my site*/
@@ -41,8 +41,7 @@
 
 body{
     min-height: 100vh;
-    background-image: url(/image/galacticofoto.jpg);
-    background-color: var(--color02);
+    background: var(--color02) url(../image/galacticofoto.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
