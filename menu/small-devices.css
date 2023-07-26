@@ -95,10 +95,6 @@ span#mobile{
     color: white;
     text-align: center;
     cursor: pointer;
-    
-    
-    
-    
 }
 span#mobile:hover{
     background-color: #000000a9;
@@ -108,6 +104,4 @@ img{
     display: block;
     margin: auto;
     padding-top: 10px;
-    
-    
 }
