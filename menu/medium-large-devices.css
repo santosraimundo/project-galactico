@@ -12,7 +12,8 @@
     --color07: #02E3BB;
 }
 
-/*Screen for medium and large devices*/
+/*Screen for medium devices*/
+@media screen and (min-width: 768px) and (max-width: 992px) {
 body{
     background-image: url(/image/landscape-fc.jpg);
     background-position: center center;
@@ -50,4 +51,56 @@ img{
 
 span#mobile{
     display: none;
+}
+}
+/*Screen for large*/
+@media screen and (min-width: 992px){
+    body{
+        background-image: url(/image/galacticofoto.jpg);
+        background-position: center;
+    }
+    section > nav > menu > ul > li{
+        display: none;
+    }
+    nav > menu{
+        display: block;
+    }
+    section > nav > menu > ul > li{
+        display: inline-block;
+    }
+    section > nav > menu > ul > li > a{
+        padding: 3px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 4px 1px #0000005d;
+        margin: 2px;
+        width: 200px;
+        
+       
+    }
+    section{
+        position: relative;
+    }
+    nav> menu> ul {
+        position: absolute;
+        : 50%;
+        
+        
+        
+    }
+    header {
+        height: 110px;
+    }
+    header{
+        position: relative;
+    }
+    img{
+        float: right;
+        position: absolute;
+        right: 25%;
+        
+    }
+
+    span#mobile{
+        display: none;
+    }
 }

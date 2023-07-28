@@ -53,7 +53,9 @@ header{
     background-image: linear-gradient(to top, var(--color00), var(--color03), var(--color05));
     height: 162px;
     background-attachment: fixed;
-    box-shadow: 4px 3px 10px 2px #0000008e;  
+    box-shadow: 4px 3px 10px 2px #0000008e;
+    transition: width 1s, height 1s; 
+    transition-timing-function: ease-out; 
    
 }
 /*Set the header h1*/
