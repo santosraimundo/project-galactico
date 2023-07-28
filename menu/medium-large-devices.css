@@ -110,7 +110,7 @@ span#mobile{
     }
     header::after{
         content: 'Este arquivo imprensso foi criado pelo Dv Santos Raimundo.';
-        lin
+        text-decoration: overline;
         
         
     }
