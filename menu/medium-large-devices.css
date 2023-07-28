@@ -94,3 +94,27 @@ span#mobile{
         display: none;
     }
 }
+/*Media for print*/
+@media print{
+    nav>menu>ul>li{
+        display: none;
+    }
+    header {
+        box-shadow: none;
+    }
+    header h1{
+        color: black;
+    }
+    img{
+        width: 80vw;
+    }
+    header::after{
+        content: 'Este arquivo imprensso foi criado pelo Dv Santos Raimundo.';
+        lin
+        
+        
+    }
+    span#mobile{
+        display: none;
+    }
+}
