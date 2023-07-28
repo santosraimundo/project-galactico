@@ -40,8 +40,8 @@
 }
 
 body{
-    min-height: 100vh;
-    width: 100vh;
+    height: 100vh;
+    width: 100vw;
     background: var(--color02) url(/image/galactico-foto.jpg);
     background-repeat: no-repeat;
     background-size: cover;
