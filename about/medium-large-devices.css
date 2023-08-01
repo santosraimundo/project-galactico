@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/*Media Query for tablet*/
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .paragraphy{
+        width: 80vw;
+        margin: auto;
+    }
+     
+   
+    
+}
+/*Media Query for desktop and tv*/
+@media  screen and (min-width: 992px){
+    .paragraphy{
+        width: 990px;
+        margin: auto;
+    } 
+}
+/*Media Query for print*/
+@media print{
+    body{
+        width: 100vw;
+    }
+    main article{
+        box-shadow: none;
+        padding: 5px;
+        border: none;
+
+    }
+    header h1{
+        border: none;
+        padding: 0px;
+        font-size: 2em;
+    }
+    .paragraphy p{
+        font-size: 1em;
+    }
+    #back a{
+        display: none;
+    }
+    section{
+        padding: 5px;
+    }
+    section h2{
+        padding-bottom: 2px;
+    }
+}
