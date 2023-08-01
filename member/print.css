@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/*Media for print*/
+
+body{
+    background-color: white;
+
+}
+table{
+    width: 100vw;
+    height: 80vh;
+    box-shadow: none;
+}
+header h1{
+    border: none;
+    background-color: white;
+    padding: 0px;
+    font-size: 1.8em;
+
+}
+caption{
+    color: black;
+    background-color: white;
+    font-size: 1.2em;
+    padding: 2px;
+    border: none;
+}
+th{
+    color: black;
+    padding: 0px;
+    background-color: white;
+}
+#back a{
+    display: none;
+}
+td{
+    padding: 2px;
+}

@@ -1,0 +1,159 @@
+
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Keania+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kumar+One&display=swap');
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('/fonts/BebasNeue-Regular.ttf') format('truetype');
+}
+
+:root{
+    /*The fonts for my site*/
+    
+    --font-subtitle:'Nova Mono', monospace;
+    --font-title: 'Faster One', cursive;
+    --font-title00: 'Keania One', cursive;
+    --font-title01: 'Kumar One', cursive;
+    --font-paraphy: 'Bebas Neue', cursive;
+    --font-body: Arial, Helvetica, sans-serif;
+   
+    /*The color for  my site*/
+   
+    --color00: #FFC400;
+    --color01: #038c17;
+    --color02: #15118C;
+    --color03: #025918;
+    --color04: #0039FF;
+    --color05: #025E73;
+    --color06: #1E92B4;
+    --color07: #02E3BB;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to top, var(--color06), var(--color05));
+    background-attachment: fixed;
+    font-family: var(--font-body);
+  
+}
+/*Set the header*/
+header{
+    padding: 30px;
+    text-align: center;
+}
+/*Set the h1 */
+header h1{
+    font-family: var(--font-title00);
+    font-weight: normal;
+    border-top: 4px solid var(--color01); 
+    border-bottom: 4px solid var(--color00); ;
+    padding: 10px;
+    background-color: var(--color07);
+    font-size: 2.5em;
+    border-radius: 10px;
+    
+    
+}
+main{
+   
+    background-color: white;
+}
+
+/*Set my table*/
+table{
+    border-collapse: collapse;
+    margin: auto;
+    border: 1px solid #000000;
+    cursor: pointer;
+    position: relative;
+    margin: auto;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0px 0px 5px 1px #0000006c;
+}
+thead > tr>th{
+    position: sticky;
+    top: -1px;
+}
+td{
+    border: 1px solid #000000;
+    padding: 3px;
+}
+th{
+    border: 1px solid black;
+    font-size: 1.2em;
+    padding: 10px;
+    background-color: var(--color05);
+    color: var(--color00);
+    font-family: var(--font-title00);
+    font-weight: normal;
+    
+}
+/*Set hover to table row*/
+tr:hover{
+    background-color: var(--color00);
+}
+caption{
+    padding: 20px;
+    font-size: 1.5em;
+    background-color: var(--color05);
+    color: var(--color00);
+    font-family: var(--font-title00);
+    font-weight: normal;
+}
+/* Set the column of name, position and number*/
+.position{
+    text-align: center;
+    font-size: 1.2em;
+    
+}
+.number{
+    text-align: center;
+    font-size: 1.2em;
+} 
+.name{
+    font-size: 1.2em;
+}
+/*Set the total*/
+#total{
+    text-align: center;
+    font-weight: bolder;
+}
+/*Onganize de image of back page*/
+#back{
+    padding: 10px;
+   
+}
+/*Onganize de image of back page*/
+#back > a{
+    display: block;
+    text-align: center;
+}
+/*Set my footer*/
+footer{
+    text-align: center;
+    background-color: var(--color05);
+    padding: 10px;
+}
+footer p >a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+footer p > a:hover{
+    text-decoration: underline;
+    color: white;
+}
