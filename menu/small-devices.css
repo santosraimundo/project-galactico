@@ -42,7 +42,8 @@
 body{
     height: 100vh;
     width: 100vw;
-    background: var(--color02) url('/image/galactico-foto.jpg');
+    background-color: var(--color02);
+    background-image: url(../image/galactico-foto.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left  bottom;
