@@ -1,5 +1,5 @@
 @charset "UTF-8";
-
+/*Mobile first*/
 @import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
@@ -68,4 +68,14 @@ header h1{
 #back-img >a{
     display: block;
     text-align: center;
+}
+div.photos{
+    border: 1px solid #ccc;
+}
+div.photos:hover{
+    border: 1px solid var(--color00);
+}
+div.photos img{
+    width: 100%;
+    height: auto;
 }
