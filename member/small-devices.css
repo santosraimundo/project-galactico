@@ -140,6 +140,18 @@ caption{
 #back > a{
     display: block;
     text-align: center;
+    color: black;
+    
+    
+}
+span.material-symbols-outlined{
+    font-size: 3em;
+    font-weight: bolder;
+    text-align: center;
+    background-color: var(--color00);
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0px 0px 4px 2px #0000006b;
 }
 /*Set my footer*/
 footer{

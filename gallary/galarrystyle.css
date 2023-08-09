@@ -68,13 +68,27 @@ header h1{
 #back-img >a{
     display: block;
     text-align: center;
+    color: black;
+    
+}
+span.material-symbols-outlined{
+    font-size: 3em;
+    font-weight: bolder;
+    text-align: center;
+    background-color: var(--color00);
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0px 0px 4px 2px #0000006b;
 }
 div.photos{
-    border: 1px solid #ccc;
+    border: 2px solid white;
     background-color: white;
+    box-shadow: 0px 0px 5px 4px #00000080;
+    margin: 20px 0px;
+    border-radius: 5px;
 }
 div.photos:hover{
-    border: 1px solid var(--color00);
+    border: 2px solid var(--color00);
 }
 div.photos img{
     width: 100%;
@@ -89,13 +103,14 @@ p.description{
 }
 section#galarry{
     padding: 0px 10px;
-    float: left;
-    width: 90.99999%;
+    float: right;
+    width: 24.99999%;
     margin: 8px 0px;
     width: 100%;
 }
-div.responsive:after{
+div.responsive::after{
     content: "";
     display: table;
     clear:both;
 }
+/*Media Query for medium devices*/
