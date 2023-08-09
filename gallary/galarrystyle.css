@@ -98,14 +98,17 @@ div.photos img{
 p.description{
     padding: 15px;
     text-align: center;
+    line-height: 1.5;
+    text-indent: 1em;
+    
 }
 *{
     box-sizing: border-box;
 }
 section#galarry{
     padding: 0px 10px;
-    float: right;
-    width: 24.99999%;
+    float: left;
+    width: 90.99999%;
     margin: 8px 0px;
     width: 100%;
 }
@@ -115,3 +118,20 @@ div.responsive::after{
     clear:both;
 }
 /*Media Query for medium devices*/
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    section#galarry{
+       
+    }
+}
+/*Media Query for Large devices*/
+@media screen and (min-width: 992px) {
+    section#galarry{
+        width: 96vw; 
+        
+    }
+    div.photos{
+        display: block;
+        text-align: center;
+        
+    }
+}
