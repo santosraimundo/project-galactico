@@ -108,9 +108,13 @@ p.description{
 section#galarry{
     padding: 0px 10px;
     float: left;
-    width: 90.99999%;
     margin: 8px 0px;
     width: 100%;
+    transition: width 2s;
+    transition-delay: 1s;
+    transition-timing-function: ease-in-out;
+    animation-name: example;
+    animation-fill-mode: both;
 }
 div.responsive::after{
     content: "";
@@ -120,18 +124,19 @@ div.responsive::after{
 /*Media Query for medium devices*/
 @media screen and (min-width: 768px) and (max-width: 992px) {
     section#galarry{
+        width: 700px;;
+        float: none;
+        margin: auto;
        
     }
 }
 /*Media Query for Large devices*/
 @media screen and (min-width: 992px) {
     section#galarry{
-        width: 96vw; 
+        width: 996px; 
+        float: none;
+        margin: auto;
         
     }
-    div.photos{
-        display: block;
-        text-align: center;
-        
-    }
+   
 }
