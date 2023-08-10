@@ -113,8 +113,6 @@ section#galarry{
     transition: width 2s;
     transition-delay: 1s;
     transition-timing-function: ease-in-out;
-    animation-name: example;
-    animation-fill-mode: both;
 }
 div.responsive::after{
     content: "";
