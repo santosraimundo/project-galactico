@@ -40,7 +40,7 @@
     margin: 0px;
     padding: 0px;
 }
-body{
+html,body{
     width: 100vw;
     height: 100vh;
     background-image: linear-gradient(to top, var(--color06), var(--color05));
