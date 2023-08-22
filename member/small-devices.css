@@ -78,9 +78,6 @@ table{
     border: 1px solid #000000;
     cursor: pointer;
     position: relative;
-    margin: auto;
-    cursor: pointer;
-    position: relative;
     box-shadow: 0px 0px 5px 1px #0000006c;
 }
 thead > tr>th{
