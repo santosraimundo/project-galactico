@@ -69,6 +69,8 @@ main{
     text-indent: 2%;
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
    
     
 }
@@ -108,10 +110,8 @@ article{
     border: 2px solid var(--color05);
     border-radius: 10px;
     box-shadow: 0px 1px 2px 2px #00000047;
-    margin-left: 10px;
-    margin-right: 10px;
-    transition: width 1s;
-    transition-timing-function: ease;
+    flex-shrink: 2;
+   
 
 }
 /*Onganize de image of back page*/
@@ -156,3 +156,7 @@ footer p > a:hover{
     text-decoration: underline;
     color: white;
 }
+/*  margin-left: 10px;
+    margin-right: 10px;
+    transition: width 1s;
+    transition-timing-function: ease;*/
