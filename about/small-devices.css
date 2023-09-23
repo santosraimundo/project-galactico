@@ -70,7 +70,7 @@ main{
     display: flex;
     flex-flow:  column wrap;
     justify-content:center;
-    align-items: center;
+    align-items:center;
    
    
     
@@ -111,7 +111,9 @@ article{
     border: 2px solid var(--color05);
     border-radius: 10px;
     box-shadow: 0px 1px 2px 2px #00000047;
-    flex-shrink: 1;
+    
+    
+   
    
 
 }
