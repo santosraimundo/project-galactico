@@ -68,7 +68,7 @@ main{
     background-color: white;
     text-indent: 2%;
     display: flex;
-    flex-flow:  column wrap;
+    flex-flow:column;
     justify-content:center;
     align-items:center;
    
@@ -106,7 +106,7 @@ aside h2{
     padding-top: 10px;
     font-family: var(--font-subtitle);
 }
-article{
+article.paragraphy{
     padding: 20px;
     border: 2px solid var(--color05);
     border-radius: 10px;

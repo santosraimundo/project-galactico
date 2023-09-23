@@ -3,8 +3,9 @@
 /*Media Query for tablet*/
 @media screen and (min-width: 768px) and (max-width: 992px){
     .paragraphy{
-        width: 650px;
-        margin: auto;
+        margin-left: 10px;
+        margin-right: 10px;
+        
     }
      
    
@@ -13,8 +14,9 @@
 /*Media Query for desktop and tv*/
 @media  screen and (min-width: 992px){
     .paragraphy{
-        width: 990px;
-        margin: auto;
+        margin-left: 10px;
+        margin-right: 10px;
+        
     } 
 }
 /*Media Query for print*/
@@ -46,3 +48,5 @@
         padding-bottom: 2px;
     }
 }
+/* width: 650px;
+margin: auto;*/
