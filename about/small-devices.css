@@ -67,6 +67,9 @@ header h1{
 main{
     background-color: white;
     text-indent: 2%;
+    display: flex;
+    flex-flow: row wrap;
+   
     
 }
 /* Set all paragraphy*/
