@@ -68,9 +68,9 @@ main{
     background-color: white;
     text-indent: 2%;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-content: center;
+    flex-flow:  column wrap;
+    justify-content:center;
+   
    
     
 }
@@ -110,7 +110,7 @@ article{
     border: 2px solid var(--color05);
     border-radius: 10px;
     box-shadow: 0px 1px 2px 2px #00000047;
-    flex-shrink: 4;
+    flex-shrink: 1;
    
 
 }
