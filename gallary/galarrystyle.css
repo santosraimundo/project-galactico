@@ -38,6 +38,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 body{
     background-image: linear-gradient(to top, var(--color06), var(--color05));
@@ -62,8 +63,17 @@ header h1{
 }
 main#principal{
     display: flex;
+    justify-content:center;
     flex-flow: column wrap;
     align-items: center;
+    padding: 0px 10px;
+}
+section#galarry{
+    flex: 100%;
+    max-width: 100%;
+    transition: width 2s;
+    transition-delay: 1s;
+    transition-timing-function: ease-in-out;
 }
 /*Onganize de image of back page*/
 #back-img{
@@ -92,6 +102,7 @@ div.photos{
     margin: 20px 0px;
     border-radius: 5px;
     transition-delay: 1s;
+    
 }
 div.photos:hover{
     border: 2px solid var(--color00);
@@ -99,6 +110,7 @@ div.photos:hover{
 div.photos img{
     width: 100%;
     height: auto;
+    vertical-align: middle;
 }
 p.description{
     padding: 15px;
@@ -107,47 +119,34 @@ p.description{
     text-indent: 1em;
     
 }
-*{
-    box-sizing: border-box;
-}
-section#galarry{
-    padding: 0px 10px;
-    float: left;
-    margin: 8px 0px;
-    width: 100%;
-    transition: width 2s;
-    transition-delay: 1s;
-    transition-timing-function: ease-in-out;
-}
-div.responsive::after{
-    content: "";
-    display: table;
-    clear:both;
-}
+
 /*Media Query for medium devices*/
 @media screen and (min-width: 768px) and (max-width: 992px) {
     section#galarry{
         display: flex;
-        flex-flow: column wrap;
-        align-items: center;
+        flex-wrap: wrap;
         justify-content: space-evenly;
-       
-        
-       
     }
+    div.photos{
+        flex: 50%;
+        max-width: 30%;
+        flex-grow: 3;
+        flex-basis: 250px;
+    }
+   
 }
 /*Media Query for Large devices*/
 @media screen and (min-width: 992px) {
     section#galarry{
-        width: 996px; 
-        float: none;
-        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    div.photos{
+        flex: 50%;
+        max-width: 40%;
+       
         
     }
    
 }
-/*section#galarry{
-        width: 700px;;
-        float: none;
-        margin: auto;*/
-
