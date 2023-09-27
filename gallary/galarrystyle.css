@@ -60,6 +60,11 @@ header h1{
     font-size: 2.5em;
     border-radius: 10px;
 }
+main#principal{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
 /*Onganize de image of back page*/
 #back-img{
     padding: 10px;
@@ -122,9 +127,12 @@ div.responsive::after{
 /*Media Query for medium devices*/
 @media screen and (min-width: 768px) and (max-width: 992px) {
     section#galarry{
-        width: 700px;;
-        float: none;
-        margin: auto;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: space-evenly;
+       
+        
        
     }
 }
@@ -138,4 +146,8 @@ div.responsive::after{
     }
    
 }
+/*section#galarry{
+        width: 700px;;
+        float: none;
+        margin: auto;*/
 
