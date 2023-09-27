@@ -130,7 +130,6 @@ p.description{
     div.photos{
         flex: 50%;
         max-width: 30%;
-        flex-shrink: 2;
         flex-basis: 250px;
     }
    
