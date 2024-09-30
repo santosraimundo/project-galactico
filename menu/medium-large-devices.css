@@ -43,7 +43,7 @@ header{
     position: relative;
 }
 img{
-    float: right;
+    align-self: flex-end;
     position: absolute;
     right: 25%;
     
@@ -82,7 +82,7 @@ span#mobile{
         position: relative;
     }
     img{
-        float: right;
+        align-self: flex-end;
         position: absolute;
         right: 30%;
         

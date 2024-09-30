@@ -60,6 +60,11 @@ header{
     transition-timing-function: ease-out; 
 }
 /*Set the header h1*/
+header{
+    display: flex;
+    flex-flow: column nowrap;
+
+}
 header h1{
     padding-top: 10px;
     text-align: center;
@@ -67,13 +72,19 @@ header h1{
     font-size: 3em;
     color: white;
     font-weight: normal;
+    flex: 0 0 auto;
 }
 header h1:hover{
     color: var(--color00);
+    cursor: pointer;
 }
 menu{
     display: none;
     
+}
+menu{
+    display: flex;
+    flex-flow: column wrap;
 }
 nav > menu > ul{
     list-style-type: none;
@@ -104,8 +115,9 @@ span#mobile:hover{
     background-color: #000000a9;
 }
 img{
+   align-self: center;
     width: 60px;
-    display: block;
-    margin: auto;
+    flex: 0 0 auto;
+
     padding-top: 10px;
 }
