@@ -43,7 +43,7 @@ header{
     position: relative;
 }
 img{
-    float: right;
+    align-self: flex-end;
     position: absolute;
     right: 25%;
     
@@ -65,8 +65,15 @@ span#mobile{
     nav > menu{
         display: block;
     }
+    section{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+    }
     section > nav > menu > ul > li{
         display: inline-block;
+        
     }
     section > nav > menu > ul > li > a{
         padding: 3px;
@@ -82,9 +89,10 @@ span#mobile{
         position: relative;
     }
     img{
-        float: right;
+        align-self: flex-start;
         position: absolute;
-        right: 30%;
+
+        
         
     }
 
