@@ -124,7 +124,7 @@ p.description{
 @media screen and (min-width: 768px) and (max-width: 992px) {
     section#galarry{
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap:wrap;
         justify-content: space-evenly;
     }
     div.photos{
@@ -138,8 +138,9 @@ p.description{
 @media screen and (min-width: 992px) {
     section#galarry{
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap:wrap;
         justify-content: space-evenly;
+        
     }
     div.photos{
         flex: 50%;
