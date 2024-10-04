@@ -41,8 +41,6 @@
     padding: 0px;
 }
 html,body{
-    width: 100vw;
-    height: 100vh;
     background-image: linear-gradient(to top, var(--color06), var(--color05));
     background-attachment: fixed;
     font-family: var(--font-body)
@@ -65,15 +63,12 @@ header h1{
     
 }
 main{
-    background-color: white;
-    text-indent: 2%;
     display: flex;
     flex-flow:column wrap;
     align-items:center;
     justify-content: center;
-   
-   
-    
+    background-color: white;
+    text-indent: 2%;
 }
 /* Set all paragraphy*/
 .paragraphy p{
