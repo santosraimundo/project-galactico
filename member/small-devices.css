@@ -41,8 +41,7 @@
     padding: 0px;
 }
 body{
-    width: 100vw;
-    height: 100vh;
+   
     background-image: linear-gradient(to top, var(--color06), var(--color05));
     background-attachment: fixed;
     font-family: var(--font-body);
@@ -67,7 +66,9 @@ header h1{
     
 }
 main{
-   
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
     background-color: white;
 }
 
